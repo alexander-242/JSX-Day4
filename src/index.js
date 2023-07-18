@@ -9,8 +9,13 @@ import * as calc from "./calculator";
 ReactDOM.render(
   <ul>
     <li>{calc.add(1, 2)}</li>
-    <li>{calc.multiply(2, 3)}</li>
+    <li>{calc.multiply(50, 8)}</li>
+    <li>{calc.divide(2, 3)}</li>
+    <li>{calc.subtract(100, 50)}</li>
+
     <li>{subtract(7, 2)}</li>
+    <li>{add(7, 2)}</li>
+    <li>{multiply(7, 2)}</li>
     <li>{divide(5, 2)}</li>
   </ul>,
   document.getElementById("root")
